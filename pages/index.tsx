@@ -84,7 +84,7 @@ const Home: NextPage = () => {
                 </li>
                 <li className="nav-item my-auto">
                   <a
-                    className="btn btn-sign-in d-flex justify-content-center ms-lg-2 rounded-pill"
+                    className="pop-on-hover btn btn-sign-in d-flex justify-content-center ms-lg-2 rounded-pill"
                     href="./src/sign-in.html"
                     role="button"
                   >
@@ -118,7 +118,7 @@ const Home: NextPage = () => {
               </p>
               <div className="d-flex flex-lg-row flex-column gap-4">
                 <a
-                  className="btn btn-get text-lg text-white rounded-pill"
+                  className="pop-on-hover btn btn-get text-lg text-white rounded-pill"
                   href="#feature"
                   role="button"
                 >
