@@ -1,11 +1,11 @@
-import "../styles/utilities.css";
-import "../styles/homepage.css";
-import "../styles/detail.css";
-import "../styles/homepage.css";
-import "../styles/checkout.css";
 import type { AppProps } from "next/app";
 import Head from "next/head";
-import { useEffect } from "react";
+import "../styles/checkout.css";
+import "../styles/complete-checkout.css";
+import "../styles/detail.css";
+import "../styles/homepage.css";
+import "../styles/utilities.css";
+import "../styles/sign-in.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
